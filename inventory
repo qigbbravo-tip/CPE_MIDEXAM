@@ -1,0 +1,42 @@
+# ELK Stack
+[elasticsearch]
+192.168.56.119 ansible_ssh_user=root ansible_ssh_pass=pogiako 00 
+192.168.56.120 ansible_ssh_user=qigbbravo-tip ansible_ssh_pass=pogiako 00
+
+[kibana]
+192.168.56.119 ansible_ssh_user=root ansible_ssh_pass=pogiako 00
+192.168.56.120 ansible_ssh_user=qigbbravo-tip ansible_ssh_pass=pogiako 00
+
+[logstash]
+192.168.56.119 ansible_ssh_user=root ansible_ssh_pass=pogiako 00
+192.168.56.120 ansible_ssh_user=qigbbravo-tip ansible_ssh_pass=pogiako 00
+
+
+# Nagios
+[nagios]
+192.168.56.119 ansible_ssh_user=root ansible_ssh_pass=pogiako 00
+192.168.56.120 ansible_ssh_user=qigbbravo-tip ansible_ssh_pass=pogiako 00
+
+
+# Performance monitor
+[grafana]
+192.168.56.119 ansible_ssh_user=root ansible_ssh_pass=pogiako 00
+192.168.56.120 ansible_ssh_user=qigbbravo-tip ansible_ssh_pass=pogiako 00
+
+[influxdb]
+192.168.56.119 ansible_ssh_user=root ansible_ssh_pass=pogiako 00
+192.168.56.120 ansible_ssh_user=qigbbravo-tip ansible_ssh_pass=pogiako 00
+
+[prometheus]
+192.168.56.119 ansible_ssh_user=root ansible_ssh_pass=pogiako 00
+192.168.56.120 ansible_ssh_user=qigbbravo-tip ansible_ssh_pass=pogiako 00
+
+
+# LAMP stack
+[webserver]
+192.168.56.119 ansible_ssh_user=root ansible_ssh_pass=pogiako 00
+192.168.56.120 ansible_ssh_user=qigbbravo-tip ansible_ssh_pass=pogiako 00
+
+[dbserver]
+192.168.56.119 ansible_ssh_user=root ansible_ssh_pass=pogiako 00
+192.168.56.120 ansible_ssh_user=qigbbravo-tip ansible_ssh_pass=pogiako 00
